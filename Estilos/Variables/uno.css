@@ -1,0 +1,33 @@
+.uno {
+  color: white;
+  background-color: brown;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.dos {
+  color: white;
+  background-color: black;
+  margin: 10px;
+  width: 150px;
+  height: 70px;
+  display: inline-block;
+}
+.tres {
+  color: white;
+  background-color: brown;
+  margin: 10px;
+  width: 75px;
+}
+.cuatro {
+  color: white;
+  background-color: brown;
+  margin: 10px;
+  width: 100px;
+}
+
+.cinco {
+  background-color: brown;
+}

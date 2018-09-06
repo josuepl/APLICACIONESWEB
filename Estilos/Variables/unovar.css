@@ -1,0 +1,71 @@
+:root{
+    --color-principal:brown;
+    --color-secundario: steelblue; 
+
+}
+
+.uno {
+  color: white;
+  background-color:var(--color-principal);
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+
+
+.dos {
+  color: white;
+  background-color: black;
+  margin: 10px;
+  width: 150px;
+  height: 70px;
+  display: inline-block;
+}
+.tres {
+  color: white;
+  background-color:var(--color-principal);
+  margin: 10px;
+  width: 75px;
+}
+.cuatro {
+  color: white;
+  background-color: var(--color-principal);
+  margin: 10px;
+  width: 100px;
+}
+
+.cinco {
+  background-color: var(--color-principal);
+}
+
+
+
+/*
+  Hermanos adyacentes
+*/
+p + h1 {
+  color: red;
+}
+
+li:first-of-type + li{
+  color: red;
+}
+
+
+/* Hermanos generales*/
+p ~ span {
+  color: red;
+}
+
+/*Elementos Descendientes*/
+div span { background-color: yellowgreen; }
+
+
+/* Elementos Hijos 
+span { background-color: var(--color-secundario) }
+article > span {
+  background-color: DodgerBlue;
+}
+*/
